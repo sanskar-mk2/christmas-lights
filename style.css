@@ -1,10 +1,38 @@
+:root {
+    --first: #000000;
+    --second: #ffffff;
+    --anim: color_change;
+    --time: 1s;
+}
+
 #main-div {
     display: flex;
+    justify-content: space-between;
+}
+#ppbtns {
+    display: flex;
+    justify-content: center;
+}
+
+#a-div {
+    display: flex;
+    justify-content: center;
 }
 
 .circles {
     height: 100px;
-    width: 100px;
+    min-width: 100px;
     background-color: aqua;
     border-radius: 100%;
+    animation: var(--anim) var(--time) infinite alternate;
+}
+
+@keyframes color_change {
+    from {
+        background-color: var(--first);
+    }
+
+    to {
+        background-color: var(--second);
+    }
 }
