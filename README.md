@@ -1,4 +1,4 @@
-# christmas-lights
+# Christmas Lights Learning App
 
 ![image](https://user-images.githubusercontent.com/100945489/171551237-b7aaf956-57ef-4ee2-b86f-5118e61641ae.png)
 
@@ -13,4 +13,3 @@ Features:
 I learnt about:
  - Using and dynamically changing CSS variables
  - CSS Animations
-
